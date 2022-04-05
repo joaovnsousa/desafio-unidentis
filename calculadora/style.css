@@ -1,0 +1,114 @@
+body {
+    background-color: #201b2c;
+}
+
+.box {
+    background-color: #2f2841;
+    box-shadow: 0px 10px 40px #00000056;
+    height: 300px;
+    width: 270px;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 40%;
+}
+
+.display {
+    background-color: #222;
+    width: 220px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    height: 40px;
+}
+
+.display input {
+    position: relative;
+    left: 2px;
+    top: 2px;
+    height: 35px;
+    color: #f0ffffde;
+    background-color: #514869;
+    font-size: 21px;
+    text-align: right;
+}
+
+.keys {
+    position: relative;
+    top: 30px;
+}
+
+.button {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 17px;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+    background-color: #514869;
+}
+
+.button.gray {
+    color: #f0ffffde;
+    font: #f0ffffde;
+    background-color: #6f6f6f;
+    border-bottom: black 2px solid;
+    border-top: 2px #6f6f6f solid;
+}
+
+.title {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 5px 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #00ff88;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.button.pink {
+    color: black;
+    background-color: #77ffc0;
+    border-bottom: black 2px solid;
+}
+
+.button.black {
+    color: #f0ffffde;
+    background-color: 303030;
+    border-bottom: black 2px solid;
+    border-top: 2px 303030 solid;
+    font-weight: bold;
+}
+
+.button.orange {
+    color: black;
+    background-color: #77ffc0;
+    border-bottom: black 2px solid;
+    border-top: 2px #77ffc0 solid;
+}
+
+.gray:active {
+    border-top: black 2px solid;
+    border-bottom: 2px #6f6f6f solid;
+}
+
+.pink:active {
+    border-top: black 2px solid;
+    border-bottom: #ff4561 2px solid;
+}
+
+.black:active {
+    border-top: black 2px solid;
+    border-bottom: #303030 2px solid;
+}
+
+.orange:active {
+    border-top: black 2px solid;
+    border-bottom: FF9933 2px solid;
+}
+
+p {
+    line-height: 10px;
+}
